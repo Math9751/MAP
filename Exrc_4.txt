@@ -1,0 +1,9 @@
+A interface Map em Java é uma parte do framework de coleções e representa uma estrutura de dados que mapeia chaves a valores.
+
+Métodos:
+
+1 - put(K key, V value): Este método adiciona um par chave-valor ao mapa. Se a chave já existir no mapa, o valor associado à chave será substituído pelo novo valor. O método retorna o valor anterior associado à chave ou 'null' se a chave não estava presente no mapa.
+
+2 - get(Object key): Este método retorna o valor associado à chave especificada no mapa. Se a chave não estiver presente, o método retorna 'null'. 
+
+3 - remove(Object key): Este método remove a chave (e seu valor correspondente) do mapa. Se a chave estiver presente, o método retorna o valor associado à chave antes da remoção. Se a chave não estiver presente, o método retorna null. Após a remoção, a chave não estará mais presente no mapa.
